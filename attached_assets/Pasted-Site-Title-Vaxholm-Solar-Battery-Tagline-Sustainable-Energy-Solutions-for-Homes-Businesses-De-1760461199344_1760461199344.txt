@@ -1,0 +1,178 @@
+Site Title: Vaxholm Solar & Battery
+Tagline: Sustainable Energy Solutions for Homes & Businesses
+
+Design Style:
+
+Minimalist & Clean
+
+White Background with accents of dark green or deep blue (#0b6b4a or #0a58a8)
+
+Font: Inter or system-ui, with bold headings
+
+Layout: Spacious with large icons and clear typography
+
+🏠 Home Page (Hero Section)
+
+Main Heading:
+"Solar Panels & Battery Storage in Vaxholm"
+"Reduce your energy costs with sustainable solutions."
+
+Subheading:
+"Free Consultation · Installation · Ongoing Support"
+
+Call-to-Action Button:
+"Get a Free Quote" (anchors to contact form)
+
+Hero Image:
+Use Sunshine shop_edited.png or IMG_8079.webp as the main image. Alt text: "Solar panels on a residential roof in Vaxholm."
+
+🔧 Our Services (Three Columns)
+
+Each service should have:
+
+Icon
+
+Title
+
+Short Description (1–2 lines)
+
+Home Solar Systems
+Tailored for Swedish rooftops, maximizing energy production.
+
+Battery Storage Solutions
+Store excess energy for later use, enhancing energy independence.
+
+Commercial & Multi-Family Units
+Complete solar installations for businesses and housing associations.
+
+⚙️ How It Works (Three-Step Process)
+
+Consultation & Quote
+Free assessment and personalized proposal.
+
+Installation
+Certified installers ensure quick and efficient setup.
+
+Support & Maintenance
+Ongoing monitoring and service for optimal performance.
+
+📸 Projects Gallery (Image Grid)
+
+Layout:
+Three columns on desktop, one on mobile.
+
+Images:
+Use 2.jpg, 2023-02-15_edited.jpg, and other relevant project images.
+
+Captions:
+Each image should have:
+
+Location
+
+System Size
+
+Year of Installation
+
+Example: "Vaxholm – 6.4 kW – 2024"
+
+Lightbox Feature:
+Clicking an image opens a larger view with a brief description (max 4–6 bullet points) of the project details.
+
+💬 Testimonials (Optional)
+
+Format:
+Display 4–6 short customer reviews with names and optional profile pictures.
+
+Example:
+"Great service and quick installation!" – Fredrik L.
+
+📞 Contact Page
+
+Form Fields:
+
+Full Name*
+
+Email*
+
+Phone
+
+City*
+
+How can we assist you? (Dropdown: Home / Business / Service)
+
+Message (Optional)
+
+Submit Button:
+"Send Message" (Confirmation message: "Thank you! We'll get back to you within 48 hours.")
+
+Footer Information:
+
+Email: charlie@twiston.se
+
+Phone: +46 70 386 6696
+
+Address: Campusgränd 1, Vaxholm
+
+Copyright: © 2025 Vaxholm Solar & Battery
+
+🖼️ Image & Media Guidelines
+
+Hero Image:
+Use Sunshine shop_edited.png or IMG_8079.webp. Alt text: "Solar panels on a residential roof in Vaxholm."
+
+Project Images:
+Use 2.jpg, 2023-02-15_edited.jpg, and other relevant project images. Provide alt text for each image.
+
+⚙️ Technical Specifications
+
+Responsive Design:
+Ensure the website is mobile-friendly.
+
+Lightbox Gallery:
+Implement a lightbox feature for the project images.
+
+Content Management System (CMS):
+Allow easy addition of new projects and testimonials.
+
+Contact Form:
+Ensure form submissions are sent to the provided email and stored in Replit/Forms.
+
+✅ Accessibility & Performance
+
+Contrast:
+Ensure text contrast meets AA standards.
+
+Alt Text:
+Provide alt text for all images.
+
+Performance:
+Optimize image sizes for fast loading times.
+
+Structured Data:
+Implement schema.org for LocalBusiness with address and phone for SEO.
+
+📝 Microcopy (Ready-to-Use)
+
+Hero Section:
+"Solar Panels & Battery Storage in Vaxholm"
+"Reduce your energy costs with sustainable solutions."
+
+Call-to-Action Button:
+"Get a Free Quote"
+
+Contact Confirmation:
+"Thank you! We'll get back to you within 48 hours."
+
+🔧 Optional Additions
+
+Why Choose Us Section:
+Highlight key selling points:
+
+"Swedish climate-adapted panels"
+
+"Comprehensive service (consultation → maintenance)"
+
+"Local presence in Vaxholm"
+
+Trust Badge:
+"Certified Installers" (if applicable)
