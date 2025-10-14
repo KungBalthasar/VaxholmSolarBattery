@@ -4,18 +4,18 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 const services = [
   {
     icon: Home,
-    title: "Home Solar Systems",
-    description: "Tailored for Swedish rooftops, maximizing energy production.",
+    title: "Solceller för hem",
+    description: "Designade för svenska tak, maximal avkastning.",
   },
   {
     icon: Battery,
-    title: "Battery Storage Solutions",
-    description: "Store excess energy for later use, enhancing energy independence.",
+    title: "Batterilagring",
+    description: "Lagra egen el och använd när nätet är dyrt.",
   },
   {
     icon: Building2,
-    title: "Commercial & Multi-Family Units",
-    description: "Complete solar installations for businesses and housing associations.",
+    title: "Företag & BRF",
+    description: "Kompletta anläggningar, projektering och drift.",
   },
 ];
 
@@ -24,9 +24,9 @@ export default function Services() {
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Våra tjänster</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Professional solar and battery solutions designed for Swedish climate and homes
+            Professionella sol- och batterilösningar för svenskt klimat och svenska hem
           </p>
         </div>
 

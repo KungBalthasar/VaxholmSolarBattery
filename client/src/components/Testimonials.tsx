@@ -3,22 +3,22 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Great service and quick installation!",
+    quote: "Bra service och snabb installation!",
     author: "Fredrik L.",
     location: "Vaxholm",
   },
   {
-    quote: "Professional team and excellent results. Our energy costs have dropped significantly.",
+    quote: "Professionellt team och utmärkta resultat. Våra elkostnader har sjunkit kraftigt.",
     author: "Maria S.",
     location: "Stockholm",
   },
   {
-    quote: "Very knowledgeable about Swedish climate requirements. Highly recommend!",
+    quote: "Mycket kunniga om svenska klimatkrav. Rekommenderar starkt!",
     author: "Anders K.",
     location: "Lidingö",
   },
   {
-    quote: "The battery storage solution has made us nearly energy independent. Fantastic work!",
+    quote: "Batterilagringen har gjort oss nästan energioberoende. Fantastiskt jobb!",
     author: "Lisa M.",
     location: "Uppsala",
   },
@@ -29,9 +29,9 @@ export default function Testimonials() {
     <section className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Vad våra kunder säger</h2>
           <p className="text-lg text-muted-foreground">
-            Trusted by homeowners and businesses across Sweden
+            Betrodda av villaägare och företag i hela Sverige
           </p>
         </div>
 

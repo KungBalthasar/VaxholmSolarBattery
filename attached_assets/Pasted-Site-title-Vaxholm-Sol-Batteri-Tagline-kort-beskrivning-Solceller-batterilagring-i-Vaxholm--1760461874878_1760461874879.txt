@@ -1,0 +1,141 @@
+Site title: Vaxholm Sol & Batteri
+Tagline / kort beskrivning: Solceller & batterilagring i Vaxholm — enkelt, tryggt och lönsamt.
+
+Färgtema & typografi
+
+Primär färg: vitt / mycket luft (clean), accent: mörkgrön eller djupblå (#0b6b4a eller #0a58a8).
+
+Accent för CTA: klar gul eller orange (för kontrast).
+
+Font: Inter eller system-ui, tydlig rubrikfont (semibold).
+
+Mycket vitt utrymme, stora ikoner, enkel layout (kortfattade rutor).
+
+SEO / metadata
+
+Meta title: Vaxholm Sol & Batteri — Solceller och Batterilösningar
+
+Meta description: Vi installerar solceller och batterier i Vaxholm för hem, BRF och företag. Kostnadsfri rådgivning. Enkel process — från projektering till service.
+
+Struktur / sidor (översikt, minimal text)
+1. Startsida (Hero)
+
+Hero-nyckeltext (kort):
+Solceller & batterier i Vaxholm
+Sänk dina elkostnader — hållbar energi anpassad för svenska förhållanden.
+
+Subtext (1 rad): Snabb offert · Installation · Service
+
+Knapp (CTA): “Boka kostnadsfri rådgivning” (scrollar till kontaktformulär)
+
+Bild: använd Sunshine shop_edited.png eller IMG_8079.webp som hero-bild. Ange alt: “Solpaneler på villatak i Vaxholm”.
+
+2. Tjänster (kort, tre kolumner)
+
+Varje kort: ikon, rubrik, 1–2 rader.
+
+Solceller för hem — Designade för svenska tak, maximal avkastning.
+
+Batterilagring — Lagtra egen el och använd när nätet är dyrt.
+
+Företag & BRF — Kompletta anläggningar, projektering och drift.
+
+Under varje kort: liten knapp “Läs mer” (öppnar popup med 4–6 punkters lista — ej lång text).
+
+3. Hur det funkar (3 steg, ikonrad)
+
+1. Rådgivning & offert — Enkel kostnadsfri bedömning.
+
+2. Installation — Certifierade installatörer, snabb montering.
+
+3. Service & support — Underhåll och fjärrövervakning.
+(Endast rubriker + 1 rad per steg.)
+
+4. Projekt / Recepcioner (bildgalleri)
+
+Sida som visar färdiga projekt i ett bildgalleri (grid) — 3 kolumner desktop, 1 kolumn mobil.
+
+Bildformat och info: Varje bild ska ha:
+
+Bildfil (använd dessa filer: Kopia av IMG_8079.webp, 2.jpg, 2023-02-15_edited.jpg, Sunshine shop_edited.png) + plats för fler.
+
+Kort caption under bilden: Plats – Systemstorlek – År (ex: “Vaxholm – 6.4 kW – 2024”).
+
+Klickbar bild för större vy + möjlighet att se 3–4 korta punkter i lightbox: vad som gjordes (taktyp, paneltyp, batteri (om installerat), tid för installation). Allt extremt kortfattat.
+
+Filtrering: Möjlighet att filtrera: Hem / BRF / Företag / Med batteri.
+
+5. Kundomdömen (valfritt block på projektsidan eller separat sida)
+
+Visa 4–8 korta kundcitat (1–2 rader) med kundens namn och liten profilbild (eller ikon). Texten ska vara maximal 20–30 ord.
+
+6. Kontakt (footer + separat kontaktsektion)
+
+Kontaktformulär (fälten): För- & Efternamn*, E-post*, Telefon*, Stad*, Vad vill du ha hjälp med? (dropdown: Hem / BRF / Företag / Service) + fritext (kort, max 200 tecken).
+
+Knapp: Skicka (klar bekräftelse: “Tack! Vi återkommer inom 48 timmar.”)
+
+Direktinfo i footer:
+
+E-post: charlie@twiston.se
+
+Telefon: 070 386 6696
+
+Adress: Campusgränd 1, Vaxholm
+
+Copyright: © 2025 Vaxholm Sol & Batteri (eller Twiston om ni vill behålla varumärke)
+
+Länk: Integritetspolicy
+
+Designkrav för kontaktformulär: tydlig CTA, enkel validering, mobilvänlig.
+
+Innehållston & längd
+
+Kortfattat, tydligt, sakligt. Ingen lång text. Varje avsnitt får max 1–3 korta meningar (helst bullets).
+
+Rubriker + 1 rad förklaringar. Använd punktlistor snarare än löpande text.
+
+Bilder & media (användare kan byta senare)
+
+Använd följande uppladdade bilder i dessa positioner:
+
+Hero: Sunshine shop_edited.png eller IMG_8079.webp
+
+Projektsidan: 2.jpg, 2023-02-15_edited.jpg, övriga bilder som exemplar.
+
+Alt-texter: Ge till varje bild en kort alt-text (max 8–10 ord) — ex. “Solpaneler på rött villatak i Vaxholm”.
+
+Funktionalitet / tekniska önskemål
+
+Responsiv layout (mobil-först).
+
+Lätt animation för bildlightbox (diskret).
+
+Bildgalleri med lazy-loading.
+
+Enkelt CMS-läge så ni kan lägga till nya projektbilder + captions utan kod.
+
+Kontaktform skickar både till e-post och sparas i Replit/Forms.
+
+Accessibility & performance
+
+Kontrast för text minst AA.
+
+Alt-text för alla bilder.
+
+Snabba laddtider: optimera bildstorlekar (webp när möjligt).
+
+Strukturerad data: schema.org för företag (LocalBusiness) med adress och telefon för SEO.
+
+Microcopy / färdiga texter (klara att klistra in, korta)
+
+Hero: Solceller & batterier i Vaxholm — spara pengar med hållbar energi.
+Tjänster (kort): Solceller | Batterier | Företag & BRF | Installation & Service
+CTA-knapp: Boka kostnadsfri rådgivning
+Kontaktbekräftelse: Tack! Vi återkommer inom 48 timmar.
+
+Extra (valfritt)
+
+Liten sektion “Varför välja oss” med 3 bullets: Svenskt klimatanpassade paneler · Komplett leverans (rådgivning → service) · Lokalt i Vaxholm.
+
+Trust badge: “Certifierade installatörer” (om ni har certifikat).

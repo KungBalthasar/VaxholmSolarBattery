@@ -22,12 +22,12 @@ import {
 import { useToast } from "@/hooks/use-toast";
 
 const formSchema = z.object({
-  fullName: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Invalid email address"),
+  fullName: z.string().min(2, "Namnet måste vara minst 2 tecken"),
+  email: z.string().email("Ogiltig e-postadress"),
   phone: z.string().optional(),
-  city: z.string().min(2, "City is required"),
+  city: z.string().min(2, "Stad krävs"),
   serviceType: z.enum(["home", "business", "service"], {
-    required_error: "Please select a service type",
+    required_error: "Välj en tjänstetyp",
   }),
   message: z.string().optional(),
 });
@@ -50,8 +50,8 @@ export default function ContactForm() {
   const onSubmit = (data: FormData) => {
     console.log("Form submitted:", data);
     toast({
-      title: "Thank you!",
-      description: "We'll get back to you within 48 hours.",
+      title: "Tack!",
+      description: "Vi återkommer inom 48 timmar.",
     });
     form.reset();
   };
@@ -60,9 +60,9 @@ export default function ContactForm() {
     <section id="contact" className="py-20 bg-background">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Get a Free Quote</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Boka kostnadsfri rådgivning</h2>
           <p className="text-lg text-muted-foreground">
-            Fill out the form below and we'll contact you within 48 hours
+            Fyll i formuläret nedan så kontaktar vi dig inom 48 timmar
           </p>
         </div>
 
@@ -73,10 +73,10 @@ export default function ContactForm() {
               name="fullName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Full Name *</FormLabel>
+                  <FormLabel>För- & Efternamn *</FormLabel>
                   <FormControl>
                     <Input
-                      placeholder="John Andersson"
+                      placeholder="Erik Andersson"
                       {...field}
                       data-testid="input-full-name"
                     />
@@ -92,11 +92,11 @@ export default function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Email *</FormLabel>
+                    <FormLabel>E-post *</FormLabel>
                     <FormControl>
                       <Input
                         type="email"
-                        placeholder="john@example.com"
+                        placeholder="erik@exempel.se"
                         {...field}
                         data-testid="input-email"
                       />
@@ -111,7 +111,7 @@ export default function ContactForm() {
                 name="phone"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Phone</FormLabel>
+                    <FormLabel>Telefon *</FormLabel>
                     <FormControl>
                       <Input
                         type="tel"
@@ -132,7 +132,7 @@ export default function ContactForm() {
                 name="city"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>City *</FormLabel>
+                    <FormLabel>Stad *</FormLabel>
                     <FormControl>
                       <Input
                         placeholder="Vaxholm"
@@ -150,7 +150,7 @@ export default function ContactForm() {
                 name="serviceType"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>How can we assist you? *</FormLabel>
+                    <FormLabel>Vad vill du ha hjälp med? *</FormLabel>
                     <Select
                       onValueChange={field.onChange}
                       defaultValue={field.value}
@@ -158,13 +158,13 @@ export default function ContactForm() {
                     >
                       <FormControl>
                         <SelectTrigger>
-                          <SelectValue placeholder="Select service type" />
+                          <SelectValue placeholder="Välj tjänstetyp" />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent>
-                        <SelectItem value="home">Home Installation</SelectItem>
-                        <SelectItem value="business">Business Installation</SelectItem>
-                        <SelectItem value="service">Service & Maintenance</SelectItem>
+                        <SelectItem value="home">Hem</SelectItem>
+                        <SelectItem value="business">Företag / BRF</SelectItem>
+                        <SelectItem value="service">Service</SelectItem>
                       </SelectContent>
                     </Select>
                     <FormMessage />
@@ -178,10 +178,10 @@ export default function ContactForm() {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Message (Optional)</FormLabel>
+                  <FormLabel>Meddelande (valfritt)</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Tell us about your project..."
+                      placeholder="Berätta om ditt projekt..."
                       className="resize-none"
                       rows={5}
                       {...field}
@@ -199,7 +199,7 @@ export default function ContactForm() {
               className="w-full"
               data-testid="button-submit-contact"
             >
-              Send Message
+              Skicka
             </Button>
           </form>
         </Form>

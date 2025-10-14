@@ -25,10 +25,10 @@ const projects: Project[] = [
     size: "6.4 kW",
     year: "2024",
     details: [
-      "20 solar panels installed",
-      "Annual production: 6,400 kWh",
-      "ROI period: 8-10 years",
-      "Battery storage: 10 kWh",
+      "20 solpaneler installerade",
+      "Årsproduktion: 6 400 kWh",
+      "ROI-period: 8-10 år",
+      "Batterilagring: 10 kWh",
     ],
   },
   {
@@ -38,10 +38,10 @@ const projects: Project[] = [
     size: "8.2 kW",
     year: "2024",
     details: [
-      "26 premium solar panels",
-      "Annual production: 8,200 kWh",
-      "Commercial installation",
-      "Remote monitoring system",
+      "26 premiumpaneler",
+      "Årsproduktion: 8 200 kWh",
+      "Företagsinstallation",
+      "Fjärrövervakningssystem",
     ],
   },
   {
@@ -51,10 +51,10 @@ const projects: Project[] = [
     size: "5.5 kW",
     year: "2023",
     details: [
-      "18 solar panels",
-      "Annual production: 5,500 kWh",
-      "Residential complex",
-      "15 kWh battery storage",
+      "18 solpaneler",
+      "Årsproduktion: 5 500 kWh",
+      "BRF-installation",
+      "15 kWh batterilagring",
     ],
   },
   {
@@ -64,10 +64,10 @@ const projects: Project[] = [
     size: "7.0 kW",
     year: "2023",
     details: [
-      "22 solar panels installed",
-      "Annual production: 7,000 kWh",
-      "Modern villa installation",
-      "Smart energy management",
+      "22 solpaneler installerade",
+      "Årsproduktion: 7 000 kWh",
+      "Modern villainstallation",
+      "Smart energihantering",
     ],
   },
   {
@@ -77,10 +77,10 @@ const projects: Project[] = [
     size: "9.5 kW",
     year: "2024",
     details: [
-      "30 high-efficiency panels",
-      "Annual production: 9,500 kWh",
-      "Multi-family building",
-      "20 kWh battery system",
+      "30 högeffektiva paneler",
+      "Årsproduktion: 9 500 kWh",
+      "Flerfamiljshus",
+      "20 kWh batterisystem",
     ],
   },
   {
@@ -90,10 +90,10 @@ const projects: Project[] = [
     size: "4.8 kW",
     year: "2023",
     details: [
-      "16 solar panels",
-      "Annual production: 4,800 kWh",
-      "Compact roof solution",
-      "5-year warranty included",
+      "16 solpaneler",
+      "Årsproduktion: 4 800 kWh",
+      "Kompakt taklösning",
+      "5 års garanti ingår",
     ],
   },
 ];
@@ -112,9 +112,9 @@ export default function ProjectGallery() {
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Våra projekt</h2>
           <p className="text-lg text-muted-foreground">
-            Successful installations across Sweden
+            Framgångsrika installationer i hela Sverige
           </p>
         </div>
 

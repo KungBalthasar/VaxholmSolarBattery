@@ -21,13 +21,13 @@ export default function Hero({ onCTAClick }: HeroProps) {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
-            Solar Panels & Battery Storage in Vaxholm
+            Solceller & batterier i Vaxholm
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-white/95">
-            Reduce your energy costs with sustainable solutions.
+            Sänk dina elkostnader — hållbar energi anpassad för svenska förhållanden.
           </p>
           <p className="text-lg mb-8 text-white/90">
-            Free Consultation · Installation · Ongoing Support
+            Snabb offert · Installation · Service
           </p>
           <Button
             size="lg"
@@ -35,7 +35,7 @@ export default function Hero({ onCTAClick }: HeroProps) {
             className="text-lg px-8 py-6"
             data-testid="button-cta-hero"
           >
-            Get a Free Quote
+            Boka kostnadsfri rådgivning
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>

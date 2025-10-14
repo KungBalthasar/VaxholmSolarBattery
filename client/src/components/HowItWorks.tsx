@@ -4,20 +4,20 @@ const steps = [
   {
     number: "1",
     icon: MessageSquare,
-    title: "Consultation & Quote",
-    description: "Free assessment and personalized proposal.",
+    title: "Rådgivning & offert",
+    description: "Enkel kostnadsfri bedömning.",
   },
   {
     number: "2",
     icon: Wrench,
     title: "Installation",
-    description: "Certified installers ensure quick and efficient setup.",
+    description: "Certifierade installatörer, snabb montering.",
   },
   {
     number: "3",
     icon: Headphones,
-    title: "Support & Maintenance",
-    description: "Ongoing monitoring and service for optimal performance.",
+    title: "Service & support",
+    description: "Underhåll och fjärrövervakning.",
   },
 ];
 
@@ -26,9 +26,9 @@ export default function HowItWorks() {
     <section className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Hur det fungerar</h2>
           <p className="text-lg text-muted-foreground">
-            Simple steps to sustainable energy
+            Enkla steg till hållbar energi
           </p>
         </div>
 
