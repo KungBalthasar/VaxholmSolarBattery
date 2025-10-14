@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@assets/stock_images/solar_panels_on_resi_f5119d52.jpg";
+import heroImage from "@assets/image_1760462174037.png";
 
 interface HeroProps {
   onCTAClick: () => void;

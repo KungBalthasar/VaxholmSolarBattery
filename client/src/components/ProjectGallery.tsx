@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import project1 from "@assets/stock_images/solar_panel_installa_533796c4.jpg";
-import project2 from "@assets/stock_images/solar_panel_installa_884f876e.jpg";
-import project3 from "@assets/stock_images/solar_panel_installa_08fbfb14.jpg";
-import project4 from "@assets/stock_images/battery_storage_syst_3e4f4263.jpg";
-import project5 from "@assets/stock_images/battery_storage_syst_bf8a30cd.jpg";
-import project6 from "@assets/stock_images/solar_panels_on_resi_f5119d52.jpg";
+import project1 from "@assets/image_1760462174037.png";
+import project2 from "@assets/image_1760462186188.png";
+import project3 from "@assets/image_1760462192071.png";
+import project4 from "@assets/stock_images/solar_panel_installa_533796c4.jpg";
+import project5 from "@assets/stock_images/solar_panel_installa_884f876e.jpg";
+import project6 from "@assets/stock_images/battery_storage_syst_3e4f4263.jpg";
 
 interface Project {
   id: number;
