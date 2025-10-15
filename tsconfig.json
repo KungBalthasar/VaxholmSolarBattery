@@ -10,7 +10,18 @@
     "lib": ["esnext", "dom", "dom.iterable"],
     "jsx": "preserve",
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true,import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'  // or whichever plugins you use
+
+export default defineConfig({
+  base: '/VaxholmSolarBattery/',
+  plugins: [
+    react(),
+    // other plugins...
+  ],
+  // other config (resolve, build, etc.)
+})
+
     "allowImportingTsExtensions": true,
     "moduleResolution": "bundler",
     "baseUrl": ".",
